@@ -8,8 +8,8 @@ export default function Hero() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-info">
-            <h1>vi-linh vu</h1>
-            <p>
+            <h1 className="hero-title">vi-linh vu</h1>
+            <p className="hero-desc">
               I am a college student studying computer science. I have an
               interest in art and web apps.
             </p>

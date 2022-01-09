@@ -15,21 +15,31 @@
 }
 
 .hero-info {
-    flex: 3;
+  flex: 3;
 }
 .hero-img {
-    flex: 4;
+  flex: 4;
+}
+.hero-img img {
+  object-fit: contain;
 }
 
 .hero h1 {
   font-size: 6rem;
+  line-height: 4rem;
   font-weight: 300;
+}
+.hero-title {
+  margin-bottom: 1.5rem;
 }
 
 .hero p {
   font-size: 1.6rem;
   line-height: 1.4rem;
   color: var(--black);
+}
+.hero-desc {
+  margin-bottom: 1.5rem;
 }
 
 .hero button {
@@ -51,5 +61,13 @@
 
   .hero button {
     font-size: 1.4rem;
+  }
+
+  .hero-wrapper {
+      flex-direction: column-reverse;
+  }
+
+  .hero-img img {
+      max-width: 400px;
   }
 }
