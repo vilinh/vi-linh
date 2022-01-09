@@ -11,6 +11,7 @@ export default function Creations() {
         <div className="creations-items">
           {creations.map((creation) => (
             <CreationItem
+              key={creation.title}
               title={creation.title}
               desc={creation.desc}
               lang={creation.lang}

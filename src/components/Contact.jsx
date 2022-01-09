@@ -6,11 +6,28 @@ export default function Contact() {
   //create database in firebase
   const contactForm = firebase.database().ref("contactMessage");
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    e.target.reset();
+  };
+
   const contactFormSubmit = () => {
     let name = getElemVal("name");
     let email = getElemVal("email");
     let subject = getElemVal("subject");
     let message = getElemVal("message");
+
+    saveMessages(name, email, subject, message);
+  };
+
+  const saveMessages = (name, email, subject, message) => {
+    var newContactFormRef = contactForm.push();
+    newContactFormRef.set({
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    });
   };
 
   const getElemVal = (id) => {
@@ -24,7 +41,7 @@ export default function Contact() {
           <div className="contact-info">
             <h1 className="contact-title">contact</h1>
           </div>
-          <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+          <form className="contact-form" onSubmit={handleSubmit}>
             <input
               type="text"
               id="name"
@@ -34,7 +51,7 @@ export default function Contact() {
             />
             <input
               type="email"
-              id="name"
+              id="email"
               placeholder="email"
               required
               className="contact-input"
