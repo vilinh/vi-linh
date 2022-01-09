@@ -20,22 +20,29 @@ export default function Nav() {
         <div className="nav">
           <p className="logo">vi-linh</p>
           <div className="nav-menu">
-            <ul className={(isMobile && navActive) ? "nav-links open" : "nav-links"}>
-              <li className="nav-link">
+            <ul
+              className={isMobile && navActive ? "nav-links open" : "nav-links"}
+            >
+              <li tabIndex="1" className="nav-link">
                 <Link to="home">home</Link>
               </li>
-              <li className="nav-link">
+              <li tabIndex="2" className="nav-link">
                 <Link to="about">about</Link>
               </li>
-              <li className="nav-link">
+              <li tabIndex="3" className="nav-link">
                 <Link to="projects">projects</Link>
               </li>
-              <li className="nav-link">
+              <li tabIndex="4" className="nav-link">
                 <Link to="contact">contact</Link>
               </li>
             </ul>
             {isMobile && (
-              <div onClick={() => setNavActive(!navActive)} className="burg">
+              <div
+                tabIndex="0"
+                onClick={() => setNavActive(!navActive)}
+                onKeyDown={() => setNavActive(!navActive)}
+                className="burg"
+              >
                 <i className="fas fa-ellipsis-v"></i>
               </div>
             )}
