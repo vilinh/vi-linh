@@ -4,10 +4,12 @@
   border-radius: 12px;
   background-color: var(--turquoise);
   color: var(--light-cream);
+  transition: all 0.3s ease;
 }
 
 .creation-item:hover {
   background-color: #516470;
+  transform: scale(1.05);
 }
 
 .creation-icons {
