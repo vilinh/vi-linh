@@ -30,7 +30,7 @@ export default function Nav() {
                 <Link to="about">about</Link>
               </li>
               <li tabIndex="3" className="nav-link">
-                <Link to="projects">projects</Link>
+                <Link to="creations">creations</Link>
               </li>
               <li tabIndex="4" className="nav-link">
                 <Link to="contact">contact</Link>

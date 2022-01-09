@@ -1,0 +1,45 @@
+.about {
+  color: var(--black);
+  margin-bottom: 4rem;
+}
+
+.about-title {
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  line-height: 4rem;
+  font-weight: 300;
+}
+
+.about-desc {
+  font-size: 1.6rem;
+  line-height: 1.4em;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 3;
+}
+
+.about-img {
+  flex: 3;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-title {
+    font-size: 3rem;
+  }
+  .about-desc {
+    font-size: 1.4rem;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about-img img {
+    max-width: 400px;
+  }
+}
