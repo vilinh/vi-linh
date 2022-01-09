@@ -19,7 +19,7 @@ export default function Nav() {
       <div className="container">
         <div className="nav">
           <Link to="hero" smooth>
-            <p className="logo">vi-linh</p>
+            <i class="logo far fa-star"></i>
           </Link>
           <div className="nav-menu">
             <ul

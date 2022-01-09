@@ -1,6 +1,7 @@
 .creations {
   color: var(--black);
   margin-bottom: 4rem;
+  min-height: 60vh;
 }
 
 .creations-title {

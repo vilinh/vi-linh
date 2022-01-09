@@ -12,16 +12,19 @@ export default function Creations() {
             title={"Plant Recipes"}
             desc={"A website created to host my recipes."}
             lang={"React.js, CSS, MongoDB, Express, Node.js"}
+            link={""}
           />
           <CreationItem
             title={"Plant Recipes"}
             desc={"A website created to host my recipes."}
             lang={"React.js, CSS, MongoDB, Express, Node.js"}
+            link={""}
           />
           <CreationItem
             title={"Plant Recipes"}
             desc={"A website created to host my recipes."}
             lang={"React.js, CSS, MongoDB, Express, Node.js"}
+            link={""}
           />
         </div>
       </div>

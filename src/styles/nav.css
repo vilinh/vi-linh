@@ -39,6 +39,10 @@ nav .logo {
   letter-spacing: 0.1rem;
 }
 
+.nav .logo:hover {
+  color: var(--rose);
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
