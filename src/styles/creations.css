@@ -2,6 +2,8 @@
   color: var(--black);
   margin-bottom: 4rem;
   min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
 .creations-title {
