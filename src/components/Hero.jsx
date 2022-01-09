@@ -13,9 +13,26 @@ export default function Hero() {
               I am a college student studying computer science. I have an
               interest in art and web apps.
             </p>
-            <button>
-              <i className="far fa-star"></i>
-            </button>
+            <div className="hero-icons">
+              <button>
+                <a href="mailto:vlvu@calpoly.edu">
+                  <i className="fas fa-envelope"></i>
+                </a>
+              </button>
+              <button>
+                <a href="https://github.com/vilinh" target="_blank">
+                  <i className="fab fa-github"></i>
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://www.linkedin.com/in/vi-linh-vu-a35734194/"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </button>
+            </div>
           </div>
           <div className="hero-img">
             <img src={peach} alt="peach"></img>

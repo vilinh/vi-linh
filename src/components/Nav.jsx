@@ -18,22 +18,27 @@ export default function Nav() {
     <nav>
       <div className="container">
         <div className="nav">
-          <p className="logo">vi-linh</p>
+          <Link to="hero" smooth>
+            <p className="logo">vi-linh</p>
+          </Link>
           <div className="nav-menu">
             <ul
               className={isMobile && navActive ? "nav-links open" : "nav-links"}
             >
-              <li tabIndex="1" className="nav-link">
-                <Link to="home">home</Link>
-              </li>
               <li tabIndex="2" className="nav-link">
-                <Link to="about">about</Link>
+                <Link to="about" smooth>
+                  about
+                </Link>
               </li>
               <li tabIndex="3" className="nav-link">
-                <Link to="creations">creations</Link>
+                <Link to="creations" smooth>
+                  creations
+                </Link>
               </li>
               <li tabIndex="4" className="nav-link">
-                <Link to="contact">contact</Link>
+                <Link to="contact" smooth>
+                  contact
+                </Link>
               </li>
             </ul>
             {isMobile && (

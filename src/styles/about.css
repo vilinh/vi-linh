@@ -11,7 +11,7 @@
 }
 
 .about-desc {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.4em;
 }
 
@@ -34,7 +34,7 @@
     font-size: 3rem;
   }
   .about-desc {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .about-content {
     flex-direction: column;

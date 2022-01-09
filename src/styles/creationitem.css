@@ -1,19 +1,30 @@
 .creation-item {
   text-align: left;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 12px;
   background-color: var(--turquoise);
   color: var(--light-cream);
 }
 
 .creation-item:hover {
-  background-color: #586c79;
+  background-color: #516470;
 }
 
-.creation-icon {
+.creation-icons {
+  display: flex;
+  justify-content: space-between;
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   color: var(--seagreen);
+}
+
+.icon:nth-child(2) {
+  cursor: pointer;
+  color: var(--seagreen);
+}
+
+.icon:nth-child(2):hover{
+  color: var(--rose);
 }
 
 .creation-title {

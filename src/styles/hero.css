@@ -34,7 +34,7 @@
 }
 
 .hero p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.4em;
   color: var(--black);
 }
@@ -42,17 +42,21 @@
   margin-bottom: 1.5rem;
 }
 
+.hero-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
 .hero button {
   background: none;
   border: none;
   cursor: pointer;
-  width: 100%;
   margin: 1rem 0;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .hero button:hover {
-    color: var(--seagreen)
+  color: var(--seagreen);
 }
 
 @media only screen and (max-width: 768px) {
@@ -61,7 +65,7 @@
   }
 
   .hero p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .hero button {
@@ -69,10 +73,10 @@
   }
 
   .hero-wrapper {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .hero-img img {
-      max-width: 400px;
+    max-width: 400px;
   }
 }

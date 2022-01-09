@@ -1,9 +1,10 @@
 .creations {
   color: var(--black);
+  margin-bottom: 4rem;
 }
 
 .creations-title {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   font-size: 5rem;
   line-height: 4rem;
   font-weight: 300;
