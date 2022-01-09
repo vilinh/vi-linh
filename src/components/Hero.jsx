@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/hero.css";
 import peach from "../assets/Peach-amico.png";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
@@ -38,6 +39,17 @@ export default function Hero() {
             <a href="https://storyset.com/" target="_blank">
               <img src={peach} alt="peach"></img>
             </a>
+          </div>
+          <div className="star-icons">
+            <Link to="about" smooth>
+              <i className="star-icon  far fa-star"></i>
+            </Link>
+            <Link to="creations" smooth>
+              <i className="star-icon  far fa-star"></i>
+            </Link>
+            <Link to="contact" smooth>
+              <i className="star-icon  far fa-star"></i>
+            </Link>
           </div>
         </div>
       </div>
