@@ -6,6 +6,7 @@ nav {
   height: var(--nav-height);
   color: var(--black);
   background-color: var(--light-cream);
+  z-index: 999;
 }
 
 .nav {
@@ -69,7 +70,6 @@ nav .logo {
     height: 100vh;
     top: 0;
     left: 0;
-    z-index: 100;
     transform: translateX(-100%);
     background-color: var(--light-cream);
   }
