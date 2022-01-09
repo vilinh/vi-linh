@@ -20,7 +20,9 @@ export default function About() {
           </div>
 
           <div className="about-img">
-            <img src={studying} alt="student" />
+            <a href="https://storyset.com/education" target="_blank">
+              <img src={studying} alt="student" />
+            </a>
           </div>
         </div>
       </div>

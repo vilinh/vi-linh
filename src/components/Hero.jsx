@@ -35,7 +35,9 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-img">
-            <img src={peach} alt="peach"></img>
+            <a href="https://storyset.com/" target="_blank">
+              <img src={peach} alt="peach"></img>
+            </a>
           </div>
         </div>
       </div>
