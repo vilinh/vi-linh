@@ -23,7 +23,7 @@
   color: var(--seagreen);
 }
 
-.icon:nth-child(2):hover{
+.icon:nth-child(2):hover {
   color: var(--rose);
 }
 

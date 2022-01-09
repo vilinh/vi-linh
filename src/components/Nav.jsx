@@ -25,18 +25,31 @@ export default function Nav() {
             <ul
               className={isMobile && navActive ? "nav-links open" : "nav-links"}
             >
+              {/* only toggle nav if clicked link while mobile */}
               <li tabIndex="2" className="nav-link">
-                <Link to="about" smooth>
+                <Link
+                  onClick={isMobile && (() => setNavActive(!navActive))}
+                  to="about"
+                  smooth
+                >
                   about
                 </Link>
               </li>
               <li tabIndex="3" className="nav-link">
-                <Link to="creations" smooth>
+                <Link
+                  onClick={isMobile && (() => setNavActive(!navActive))}
+                  to="creations"
+                  smooth
+                >
                   creations
                 </Link>
               </li>
               <li tabIndex="4" className="nav-link">
-                <Link to="contact" smooth>
+                <Link
+                  onClick={isMobile && (() => setNavActive(!navActive))}
+                  to="contact"
+                  smooth
+                >
                   contact
                 </Link>
               </li>
