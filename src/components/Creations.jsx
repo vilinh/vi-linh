@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/creations.css";
 import CreationItem from "./CreationItem";
+import creations from "../assets/creationsdata";
 
 export default function Creations() {
   return (
@@ -8,24 +9,14 @@ export default function Creations() {
       <div className="container">
         <h1 className="creations-title">creations</h1>
         <div className="creations-items">
-          <CreationItem
-            title={"Plant Recipes"}
-            desc={"A website created to host my recipes."}
-            lang={"React.js, CSS, MongoDB, Express, Node.js"}
-            link={""}
-          />
-          <CreationItem
-            title={"Plant Recipes"}
-            desc={"A website created to host my recipes."}
-            lang={"React.js, CSS, MongoDB, Express, Node.js"}
-            link={""}
-          />
-          <CreationItem
-            title={"Plant Recipes"}
-            desc={"A website created to host my recipes."}
-            lang={"React.js, CSS, MongoDB, Express, Node.js"}
-            link={""}
-          />
+          {creations.map((creation) => (
+            <CreationItem
+              title={creation.title}
+              desc={creation.desc}
+              lang={creation.lang}
+              link={creation.link}
+            />
+          ))}
         </div>
       </div>
     </div>
