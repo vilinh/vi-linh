@@ -5,6 +5,7 @@ nav {
   width: 100%;
   height: var(--nav-height);
   color: var(--black);
+  background-color: var(--light-cream);
 }
 
 .nav {
