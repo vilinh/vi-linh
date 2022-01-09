@@ -30,12 +30,12 @@
   font-weight: 300;
 }
 .hero-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .hero p {
   font-size: 1.6rem;
-  line-height: 1.4rem;
+  line-height: 1.4em;
   color: var(--black);
 }
 .hero-desc {
@@ -46,6 +46,7 @@
   background: none;
   border: none;
   cursor: pointer;
+  width: 100%;
   margin: 1rem 0;
   font-size: 1.6rem;
 }
