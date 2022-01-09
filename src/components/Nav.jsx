@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "../styles/nav.css";
+import resume from "../assets/Vi-Linh Vu Resume 2.pdf";
 
 export default function Nav() {
   const [isMobile, setIsMobile] = useState(
@@ -52,6 +53,15 @@ export default function Nav() {
                 >
                   contact
                 </Link>
+              </li>
+              <li tabIndex="5" className="nav-link">
+                <a
+                  onClick={isMobile && (() => setNavActive(!navActive))}
+                  href={resume}
+                  target="_blank"
+                >
+                  resume
+                </a>
               </li>
             </ul>
             {isMobile && (
