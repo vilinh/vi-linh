@@ -31,7 +31,7 @@ nav ul li a {
   transition: 0.3s ease;
 }
 nav ul li a:hover {
-  color: var(--true-blue);
+  color: var(--seagreen);
 }
 
 nav .logo {
@@ -52,7 +52,7 @@ nav .logo {
   z-index: 100;
 }
 .burg:hover {
-  color: var(--true-blue);
+  color: var(--seagreen);
 }
 
 @media only screen and (max-width: 768px) {

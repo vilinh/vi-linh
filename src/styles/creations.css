@@ -1,0 +1,26 @@
+.creations {
+  color: var(--black);
+}
+
+.creations-title {
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  line-height: 4rem;
+  font-weight: 300;
+}
+
+.creations-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .creations-title {
+    font-size: 3rem;
+  }
+
+  .creations-items {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}

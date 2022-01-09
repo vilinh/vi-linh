@@ -1,0 +1,50 @@
+.creation-item {
+  text-align: left;
+  padding: 3rem;
+  border-radius: 12px;
+  background-color: var(--turquoise);
+  color: var(--light-cream);
+}
+
+.creation-item:hover {
+  background-color: #586c79;
+}
+
+.creation-icon {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--seagreen);
+}
+
+.creation-title {
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+
+.creation-desc {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.creation-lang {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 768px) {
+  .creation-title {
+    font-size: 1.8rem;
+  }
+
+  .creation-desc {
+    font-size: 1.4rem;
+  }
+
+  .creation-lang {
+    font-size: 1.3rem;
+  }
+}
