@@ -1,4 +1,4 @@
-export default [
+const creations = [
   {
     title: "Plant Recipes",
     desc: "A website created to host my recipes.",
@@ -18,3 +18,5 @@ export default [
     link: "https://github.com/vilinh/guess-color-game",
   },
 ];
+
+export default creations;

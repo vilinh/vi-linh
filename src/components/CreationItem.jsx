@@ -6,7 +6,7 @@ export default function CreationItem({ title, desc, lang, link }) {
     <div className="creation-item">
       <div className="creation-icons">
         <i className="icon star far fa-star"></i>
-        <a className="icon" href={link} target="_blank">
+        <a className="icon" href={link}>
           <i className="fas fa-link"></i>
         </a>
       </div>

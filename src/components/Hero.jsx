@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-info">
-            <h1 className="hero-title">vi-linh vu</h1>
+            <h1 className="hero-title">vi-linh</h1>
             <p className="hero-desc">
               I am a college student studying computer science. I have an
               interest in art and web apps.
@@ -21,22 +21,19 @@ export default function Hero() {
                 </a>
               </button>
               <button>
-                <a href="https://github.com/vilinh" target="_blank">
+                <a href="https://github.com/vilinh">
                   <i className="fab fa-github"></i>
                 </a>
               </button>
               <button>
-                <a
-                  href="https://www.linkedin.com/in/vi-linh-vu-a35734194/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/vi-linh-vu-a35734194/">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </button>
             </div>
           </div>
           <div className="hero-img">
-            <a href="https://storyset.com/" target="_blank">
+            <a href="https://storyset.com/">
               <img src={peach} alt="peach"></img>
             </a>
           </div>

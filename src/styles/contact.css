@@ -1,0 +1,54 @@
+.contact {
+  min-height: 60vh;
+}
+
+.contact-title {
+  margin-bottom: 4rem;
+  font-size: 5rem;
+  line-height: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-form input,
+textarea {
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  background-color: var(--light-cream);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 30%;
+}
+
+.contact-submit {
+  border: none;
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  background-color: var(--rose);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+}
+.contact-submit:hover {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-title {
+    font-size: 3rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-submit {
+    width: 90%;
+  }
+}

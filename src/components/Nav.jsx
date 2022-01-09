@@ -58,7 +58,6 @@ export default function Nav() {
                 <a
                   onClick={isMobile && (() => setNavActive(!navActive))}
                   href={resume}
-                  target="_blank"
                 >
                   resume
                 </a>
