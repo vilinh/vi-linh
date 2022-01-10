@@ -68,6 +68,7 @@ export default function Contact() {
               placeholder="message"
               required
               className="contact-input"
+              rows={5}
             />
             <button
               type="submit"
