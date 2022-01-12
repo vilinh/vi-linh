@@ -54,7 +54,7 @@
   border: none;
   cursor: pointer;
   margin: 1rem 0;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .hero button:hover {
@@ -98,5 +98,9 @@
 
   .star-icons {
     display: none;
+  }
+
+  .hero-icons button{
+    font-size: 2.3rem;
   }
 }

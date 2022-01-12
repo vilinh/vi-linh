@@ -27,7 +27,7 @@ export default function Nav() {
               className={isMobile && navActive ? "nav-links open" : "nav-links"}
             >
               {/* only toggle nav if clicked link while mobile */}
-              <li tabIndex="2" className="nav-link">
+              <li className="nav-link">
                 <Link
                   onClick={isMobile && (() => setNavActive(!navActive))}
                   to="about"
@@ -36,7 +36,7 @@ export default function Nav() {
                   about
                 </Link>
               </li>
-              <li tabIndex="3" className="nav-link">
+              <li className="nav-link">
                 <Link
                   onClick={isMobile && (() => setNavActive(!navActive))}
                   to="creations"
@@ -45,7 +45,7 @@ export default function Nav() {
                   creations
                 </Link>
               </li>
-              <li tabIndex="4" className="nav-link">
+              <li className="nav-link">
                 <Link
                   onClick={isMobile && (() => setNavActive(!navActive))}
                   to="contact"
@@ -54,7 +54,7 @@ export default function Nav() {
                   contact
                 </Link>
               </li>
-              <li tabIndex="5" className="nav-link">
+              <li className="nav-link">
                 <a
                   onClick={isMobile && (() => setNavActive(!navActive))}
                   href={resume}
@@ -65,7 +65,6 @@ export default function Nav() {
             </ul>
             {isMobile && (
               <div
-                tabIndex="0"
                 onClick={() => setNavActive(!navActive)}
                 onKeyDown={() => setNavActive(!navActive)}
                 className="burg"
