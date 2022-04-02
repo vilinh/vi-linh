@@ -1,5 +1,11 @@
 const creations = [
   {
+    title: "Flashcards",
+    desc: "A flashcard iOS app to use as a study tool!",
+    lang: "Swift",
+    link: "https://github.com/vilinh/Flashcards",
+  },
+  {
     title: "Plant Recipes",
     desc: "A website created to host my recipes.",
     lang: "React.js, CSS, MongoDB, Express, Node.js",
