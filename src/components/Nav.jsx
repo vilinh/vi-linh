@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "../styles/nav.css";
-import resume from "../assets/Vi-Linh Vu Resume 2.pdf";
+import resume from "../assets/Vi-Linh Vu Resume 2022.pdf";
 
 export default function Nav() {
   const [isMobile, setIsMobile] = useState(
